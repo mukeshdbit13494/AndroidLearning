@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeecec"
+    android:gravity="center">
+
+    <LinearLayout
+        android:id="@+id/lay1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp">
+        <EditText
+            android:id="@+id/et_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Mobile Number"
+            android:gravity="center"
+            android:padding="10dp"
+            android:background="@drawable/search_bar"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+        <Button
+            android:id="@+id/btn_phone"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Send OTP"
+            android:background="@drawable/btn_close"
+            android:textColor="@color/colorWhite"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/lay2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_below="@id/lay1"
+        android:layout_marginTop="20dp">
+        <EditText
+            android:id="@+id/et_otp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter OTP"
+            android:gravity="center"
+            android:padding="10dp"
+            android:background="@drawable/search_bar"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+        <Button
+            android:id="@+id/btn_otp"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Verify OTP"
+            android:background="@drawable/btn_close"
+            android:textColor="@color/colorWhite"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+</RelativeLayout>

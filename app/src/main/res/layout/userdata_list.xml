@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/recycle_view"
+    android:layout_margin="10dp"
+    android:padding="10dp"
+    android:id="@+id/linearLayout">
+
+    <TextView
+        android:id="@+id/tv_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mukesh"
+        android:textColor="#E7E5E5"
+        android:textSize="25dp"
+        android:gravity="center"/>
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#e7e5e5"
+        android:layout_marginTop="5dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mobile Number"
+            android:gravity="left"
+            android:paddingLeft="20dp"
+            android:textSize="15dp"
+            android:textColor="#E7E5E5"
+            android:fontFamily="monospace"/>
+        <TextView
+            android:id="@+id/tv_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="9557707079"
+            android:gravity="right"
+            android:paddingRight="20dp"
+            android:textSize="15dp"
+            android:textColor="#E7E5E5"
+            android:fontFamily="monospace"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email Id"
+            android:gravity="left"
+            android:paddingLeft="20dp"
+            android:textSize="15dp"
+            android:textColor="#E7E5E5"
+            android:fontFamily="monospace"/>
+        <TextView
+            android:id="@+id/tv_emailid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="9557707079"
+            android:gravity="right"
+            android:paddingRight="20dp"
+            android:textSize="15dp"
+            android:textColor="#E7E5E5"
+            android:fontFamily="monospace"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Goal/Motive"
+            android:gravity="left"
+            android:paddingLeft="20dp"
+            android:textSize="15dp"
+            android:textColor="#E7E5E5"
+            android:fontFamily="monospace"/>
+        <TextView
+            android:id="@+id/tv_goal2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="9557707079"
+            android:gravity="right"
+            android:paddingRight="20dp"
+            android:textSize="15dp"
+            android:textColor="#E7E5E5"
+            android:fontFamily="monospace"/>
+    </LinearLayout>
+
+</LinearLayout>

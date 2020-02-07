@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ToggleButton" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioGroup
+            android:id="@+id/rg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/male"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Male"
+                />
+
+            <RadioButton
+                android:id="@+id/female"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Female" />
+
+            <RadioButton
+                android:id="@+id/other"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Other" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <RadioButton
+        android:id="@+id/cricket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Playing Cricket" />
+
+    <RadioButton
+        android:id="@+id/bedminton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bedminton" />
+
+    <CheckBox
+        android:id="@+id/acept"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Acept" />
+
+    <CheckBox
+        android:id="@+id/decline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Decline" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_menu_agenda" />
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="#7A018D"/>
+    <Button
+        android:id="@+id/switchdisplay"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@color/colorWhite"/>
+</LinearLayout>

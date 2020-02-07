@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="@color/colorBlue"
+        android:hint="Here"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:id="@+id/tv_scanner"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="scan now"
+        android:background="@color/colorBlue"
+        android:textColor="@color/colorWhite"
+        android:textSize="30dp"
+        android:id="@+id/btn_scan"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"/>
+</RelativeLayout>
